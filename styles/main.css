@@ -1,6 +1,13 @@
-table{
+thead th {
   text-align: center;
   background-color: aqua;
+}
+tbody{
+  text-align: center;
+  background-color: burlywood;
+}
+tfoot{
+  background-color: chartreuse;
 }
 h1 {
   position: absolute;
