@@ -1,0 +1,39 @@
+table{
+  text-align: center;
+  background-color: aqua;
+}
+h1 {
+  position: absolute;
+  width: 211px;
+  height: 75px;
+  left: 374px;
+  top: 36px;
+
+  font-family: Roboto;
+  font-style: normal;
+  font-weight: bold;
+  font-size: 64px;
+  line-height: 75px;
+  /* identical to box height */
+
+  color: #ffffff;
+}
+img {
+  position: absolute;
+  width: 960px;
+  height: 525px;
+  left: 0px;
+  top: 0px;
+
+  background: url(image.png);
+}
+
+section {
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  left: 0px;
+  top: 525px;
+
+  background: #7299fe;
+}
