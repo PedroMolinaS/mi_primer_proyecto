@@ -1,11 +1,71 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Document</title>
-</head>
-<body>
-    
-</body>
+  </head>
+  <body>
+    <form>
+      <label for="">Nombre</label>
+      <input minlength="3" name="name" type="text" placeholder="ingresa tu nombre" required />
+      <br />
+      <br />
+      <input pattern="[0-9]{2,4}" name="edad" type="text" placeholder="ingresa tu edad" />
+      <br />
+      <br />
+      <label>Elige tu pais</label>
+      <select name="country" id="">
+        <option value="">Seleccionar</option>
+        <option value="">Peru</option>
+        <option value="">Argentina</option>
+        <option value="">Uruguay</option>
+      </select>
+      <br />
+      <br />
+      <label for="">Elige tu sexo</label>
+      <hr />
+      <label for="f">F</label>
+      <input name="sex" id="f" type="radio" checked />
+      <label for="m">M</label>
+      <input name="sex" id="m" type="radio" />
+      <br />
+      <br />
+      <label for="">Elige tus hobbies</label>
+      <hr />
+      <label for="soccer">Fulbol</label>
+      <input name="hobbies" id="soccer" type="checkbox" checked />
+      <label name="hobbies" for="voley">Voley</label>
+      <input name="hobbies" id="voley" type="checkbox" />
+      <br />
+      <br />
+      <label for="password">Contraseña</label>
+      <hr />
+      <input name="password" type="password" required />
+      <br />
+      <br />
+      <label for="">Color</label>
+      <input name="color" type="color" />
+      <br />
+      <br />
+
+      <label for="">Fecha</label>
+      <input name="fecha" type="date" />
+      <br />
+      <br />
+      <label for="email">Correo</label>
+      <hr />
+      <input id="email" type="email" required />
+      <br />
+      <br />
+      <label for="range">Rango</label>
+      <input name="range" type="range" />
+      <br />
+      <br />
+      <textarea name="" id="" cols="30" rows="10"></textarea>
+      <br />
+      <br />
+      <button>Enviar</button>
+    </form>
+  </body>
 </html>
