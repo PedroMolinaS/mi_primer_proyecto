@@ -1,50 +1,61 @@
-section{
-  background-color: crimson;
-}
-
-thead th {
-  text-align: center;
-  background-color: aqua;
-}
-tbody{
-  text-align: center;
-  background-color: burlywood;
-}
-tfoot{
-  background-color: chartreuse;
-}
-h1 {
-  position: absolute;
-  width: 211px;
-  height: 75px;
-  left: 374px;
-  top: 36px;
-
-  font-family: Roboto;
-  font-style: normal;
-  font-weight: bold;
-  font-size: 64px;
-  line-height: 75px;
-  /* identical to box height */
-
-  color: #ffffff;
-}
-img {
+.banner {
+  
   position: absolute;
   width: 960px;
   height: 525px;
   left: 0px;
   top: 0px;
-
-  background: url(image.png);
+  
+  background: url(./images/image.png);
 }
 
-section {
+.my-skills {
   position: absolute;
   width: 960px;
   height: 424px;
   left: 0px;
   top: 525px;
+  
+  background: #7299FE;
+}
 
-  background: #7299fe;
+.servicios {
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  left: 0px;
+  top: 949px;
+  
+  background: #FB7171;
+}
+
+.portfolio {
+  position: absolute;
+  width: 960px;
+  height: 424px;
+  left: 0px;
+  top: 1373px;
+
+  background: #ffd233;
+}
+
+.clientes {
+  position: absolute;
+  width: 960px;
+  height: 258px;
+  left: -1px;
+  top: 1797px;
+  
+  background: #3F4E62;
+
+}
+
+.contacto {
+  position: absolute;
+width: 960px;
+height: 578px;
+left: 0px;
+top: 2054px;
+
+background: #16A085;
 }
