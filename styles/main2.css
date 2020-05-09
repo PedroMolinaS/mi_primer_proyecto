@@ -1,0 +1,24 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+.parrafo{
+    width: 200px;
+    background-color: goldenrod;
+}
+.a1{
+    font-size: 80px;
+}
+.a2{
+    font-size: 60px;
+    border-style: solid ;
+    border-color: blue;
+    
+}
+.a3{
+    font-size: 40px;
+}
+.a4{
+    font-size: 20px;
+}
