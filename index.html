@@ -6,14 +6,12 @@
     <title>Profe</title>
     <link rel="stylesheet" href="./styles/reset.css" />
     <link rel="stylesheet" href="./styles/main.css" />
-    <link rel="stylesheet" href="./fonts-awesome/css/all.css">
+    <link rel="stylesheet" href="./fonts-awesome/css/all.css" />
   </head>
   <body>
-    
     <main>
       <i class="far fa-address-card"></i>
       <section class="banner">
-        
         <img src="./images/image.png" alt="Mi imagen personal" />
         <h1>codiGO</h1>
         <h2>
@@ -48,7 +46,7 @@
               <div></div>
             </div>
           </div>
-        
+
           <div class="item">
             <h3>Javascript</h3>
             <div class="bar">
@@ -143,28 +141,33 @@
       <section class="clientes">
         <h2>Clientes</h2>
         <div class="cliimg">
-          <img src="./images/cliente1.png" alt="">
-          <img src="./images/cliente2.png" alt="">
-          <img src="./images/cliente3.png" alt="">
-          <img src="./images/cliente4.png" alt="">
+          <img src="./images/cliente1.png" alt="" />
+          <img src="./images/cliente2.png" alt="" />
+          <img src="./images/cliente3.png" alt="" />
+          <img src="./images/cliente4.png" alt="" />
         </div>
       </section>
       <section class="contacto">
         <h2>Contacto</h2>
         <form class="contact" action="">
-          <label for="">Contacto:</label>
-          <input type="text" name="name" placeholder="Nombre" />
-          <br /><br />
-          <label for="">Direccion:</label>
-          <input type="text" name="direccion" placeholder="Direccion">
-          <br /><br />
-          <label for="">Telefono:</label>
-          <input type="phone" name="telefono" placeholder="Telefono">
-          <br /><br />
-          <label for="">Comentario:</label>
-          <input type="textarea" name="comentario" placeholder="comentario">
-          <br /><br />
-          <button>Enviar</button>
+          <div class="item">
+            <input type="text" name="name" placeholder="Nombre" />
+          </div>
+          <div class="item">
+            <input type="text" name="direccion" placeholder="Direccion" />
+          </div>
+          <div class="item">
+            <input type="email" name="correo" placeholder="Correo" />
+          </div>
+          <div class="item">
+            <input type="phone" name="telefono" placeholder="Telefono" />
+          </div>
+          <div class="item">
+            <textarea name="comentario" id="" cols="30" rows="10" placeholder="Comentario"></textarea>
+          </div>
+          <div class="envio">
+            <button>Enviar</button>
+          </div>
         </form>
       </section>
     </main>

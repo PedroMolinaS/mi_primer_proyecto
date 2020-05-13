@@ -186,7 +186,7 @@ justify-content: space-between;
 }
 
 .contacto {
-  position: relative;
+  /*position: relative;*/
   background: #16a085;
   
 }
@@ -199,6 +199,23 @@ justify-content: space-between;
 }
 
 .contacto .contact{
-  /*display: flex;
-  flex-wrap: wrap;*/
+  display: flex;
+  flex-wrap: wrap;
+  
+}
+
+.contacto input{
+  width: 363px;
+  height: 59px;
+  left: 100px;
+  border: 1px solid #BFBFBF;
+}
+
+.contacto textarea{
+  width: 759px;
+}
+
+.contacto .item{
+  width: 45%;
+  padding-bottom: 20px;
 }
