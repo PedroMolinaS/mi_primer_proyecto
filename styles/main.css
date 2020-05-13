@@ -59,7 +59,7 @@ main {
 }
 
 .my-skills {
-  position: relative;
+  /*position: relative;*/
   background: #7299fe;
   padding: 40px 104px 60px;
 }
@@ -69,10 +69,16 @@ main {
   margin-bottom: 26px;
 }
 
+.my-skills .items{
+  display: flex;
+  flex-wrap: wrap;
+}
+
 .my-skills .item {
-  display: inline-block;
   width: 47%;
-  margin-bottom: 20px;
+  padding-bottom: 20px;
+  /*display: inline-block;
+  margin-bottom: 20px;*/
 }
 
 .my-skills .item:nth-child(odd) {
@@ -100,9 +106,10 @@ main {
 }
 
 .servicios {
-  position: relative;
+  /*position: relative;*/
   background: #fb7171;
-  padding: 40px 104px 60px;
+  padding: 34px 180px 116px;
+  
 }
 
 .servicios h2 {
@@ -111,11 +118,18 @@ main {
   padding-top: 20px;
 }
 
+.servicios .items{
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
 .servicios .vector {
-  display: inline-block;
-  width: 33%;
-  padding-bottom: 30px;
+  width: 30%;
   text-align: center;
+  padding-bottom: 20px;
+  /*padding-bottom: 30px;
+  text-align: center;*/
 }
 
 .servicios .vector img {
@@ -123,9 +137,10 @@ main {
 }
 
 .portfolio {
-  position: relative;
+  /*position: relative;*/
   background: #ffd233;
   padding: 40px 104px 60px;
+  
 }
 
 .portfolio h2 {
@@ -134,16 +149,24 @@ main {
   padding-top: 20px;
 }
 
+.portfolio .items{
+  display: flex;
+  flex-wrap: wrap;
+  margin-bottom: 20px;
+}
+
 .portfolio .portimg {
+  width: 24%;
+  margin-bottom: 20px;
+  /*
   display: inline-block;
   padding-right: 10px;
-  width: 23%;
   text-align: center;
-  padding-bottom: 20px;
+  padding-bottom: 20px;*/
 }
 
 .clientes {
-  position: relative;
+  /*position: relative;*/
   background: #3f4e62;
   padding: 40px 60px 60px;
 }
@@ -155,13 +178,27 @@ main {
 }
 
 .clientes .cliimg {
-  display: inline-block;
-  padding-right: 10px;
- 
-  
+display: flex;
+flex-wrap: wrap;
+justify-content: space-between;
+  /*display: inline-block;
+  padding-right: 10px;*/
 }
 
 .contacto {
   position: relative;
   background: #16a085;
+  
+}
+
+.contacto h2{
+  text-align: center;
+  margin-bottom: 20px;
+  padding-top: 20px;
+
+}
+
+.contacto .contact{
+  display: flex;
+  flex-wrap: wrap;
 }
