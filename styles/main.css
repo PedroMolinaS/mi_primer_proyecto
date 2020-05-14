@@ -296,8 +296,30 @@ cursor: pointer;
     padding: 5px;
     right: inherit;
   }
-  
 
+  .my-skills{
+    background-color: red;
+  padding-bottom: 10px;
+  }
+
+  .my-skills .item {
+    width: 100%;
+  }
+
+  .my-skills .item:nth-child(odd) {
+    margin-right: 0;
+    padding-right: 0;
+  }
+  
+  .my-skills .item:nth-child(even) {
+    padding-left: 0;
+  }
+  
+  .contacto input{
+    width: 100%;
+    
+  }
+  
 }
 
 /*
