@@ -170,7 +170,7 @@ main {
 .clientes {
   /*position: relative;*/
   background: #3f4e62;
-  padding: 40px 60px 60px;
+  padding: 36px 68px 76px;
   text-align: center;
 }
 
@@ -179,13 +179,20 @@ main {
 
 }
 
-.clientes .cliimg {
+.clientes .items {
 display: flex;
 flex-wrap: wrap;
 justify-content: space-between;
 align-items: center;
-  /*display: inline-block;
-  padding-right: 10px;*/
+}
+
+.clientes .items div{
+  width: 22%;
+  padding: 0 10px;
+}
+
+.clientes img{
+  width: 100%;
 }
 
 .contacto {
@@ -237,8 +244,63 @@ cursor: pointer;
 }
 
 
-@media (max-width: 720px) {
-  .my-skills{
-    background-color: rebeccapurple;
+/* TABLET */
+@media (max-width: 860px){
+  
+  .my-skills,
+  .servicios,
+  .portfolio,
+  .clientes,
+  .contacto{
+  padding: 40px;  
   }
+
+  .banner h2{
+    right: 52px;
+    bottom: 80px;
+  }
+
+}
+
+@media (max-width: 780px){
+  h1 {
+    font-size: 4.4rem;
+  }
+
+  h2{
+    font-size: 2.8rem;
+  }
+
+  .banner h2{
+    padding: 10px;
+    right: inherit;
+  }
+
+  .clientes .items div{
+    width: 20%;
+    padding: 0 10px;
+  }
+  
+}
+
+@media (max-width: 620px){
+  h1 {
+    font-size: 3.6rem;
+  }
+
+  h2{
+    font-size: 2.0rem;
+  }
+
+  .banner H2{
+    padding: 5px;
+    right: inherit;
+  }
+  
+
+}
+
+/*
+@media (max-width: 480px){
+  
 }
