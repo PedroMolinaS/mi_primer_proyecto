@@ -42,6 +42,7 @@ main {
 
 .banner img {
   display: block;
+  width: 100%;
 }
 
 .banner h1 {
@@ -188,34 +189,54 @@ justify-content: space-between;
 .contacto {
   /*position: relative;*/
   background: #16a085;
-  
+  padding: 36px 100px 66px;
+  text-align: center;
 }
 
 .contacto h2{
   text-align: center;
-  margin-bottom: 20px;
-  padding-top: 20px;
+  width: 100%;
 
 }
 
-.contacto .contact{
+.contacto form{
   display: flex;
   flex-wrap: wrap;
+  justify-content: space-between;
   
 }
 
 .contacto input{
-  width: 363px;
-  height: 59px;
-  left: 100px;
-  border: 1px solid #BFBFBF;
+  margin-bottom: 18px;
+  padding: 20px 10px;
+  width: 46%;
+  
 }
 
 .contacto textarea{
-  width: 759px;
+  width: 100%;
+  margin-bottom: 40px;
+  padding: 10px;
+  resize: none;
 }
 
-.contacto .item{
-  width: 45%;
-  padding-bottom: 20px;
+.contacto button{
+  width: 166px;
+  padding: 20px;
+  color: white;
+  background-color: #7299fe;
+border: 1px solid #7299fe;
+cursor: pointer;
+}
+
+.contacto div{
+  text-align: center;
+  width: 100%;
+}
+
+
+@media (max-width: 720px) {
+  .my-skills{
+    background-color: rebeccapurple;
+  }
 }
